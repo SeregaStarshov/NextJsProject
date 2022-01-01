@@ -1,7 +1,7 @@
-import { Box, Typography, Container } from '@mui/material';
 import { FC } from 'react';
+import { Box, Typography, Container } from '@mui/material';
 
-const Ratings: FC = () => {
+const Pro: FC = () => {
   return (
     <Box
       sx={{
@@ -22,11 +22,11 @@ const Ratings: FC = () => {
             backgroundColor: 'transparent',
           }}
         >
-          РЕЙТИНГИ
+          PRO
         </Typography>
       </Container>
     </Box>
   );
 };
 
-export default Ratings;
+export default Pro;
